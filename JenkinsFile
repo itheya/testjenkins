@@ -9,7 +9,7 @@ pipeline {
         stage('two') {
             steps {
                 echo 'Om Namah Shivaiah'
-                echo 'Build number is $BUILD_NUMBER'
+                echo "Build number is $BUILD_NUMBER"
             }
         }
     }
