@@ -6,5 +6,11 @@ pipeline {
                 echo 'Om Namo Venkateshaya'
             }
         }
+        stage('two') {
+            steps {
+                echo 'Om Namah Shivaiah'
+                echo 'Build number is $BUILD_NUMBER'
+            }
+        }
     }
 }
